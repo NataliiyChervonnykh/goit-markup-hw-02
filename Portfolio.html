@@ -5,36 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/Portfolio.css" />
+    <!-- Font start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font end -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!--Header section-->
-    <header class="header">
-      <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
-      <nav class="header-nav">
+    <!-- Header -->
+
+    <header>
+      <a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
+
+      <!-- Nav -->
+
+      <nav>
         <ul class="nav-list list">
-          <li class="nav-item">
-            <a class="nav-link link" href="./index.html">Студия</a>
+          <li>
+            <a class="link" href="./index.html">Студия</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="./Portfolio.html">Портфолио</a>
+          <li>
+            <a class="link current" href="./index.html">Портфолио</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="./index.html">Контакты</a>
+          <li>
+            <a class="link" href="./index.html">Контакты</a>
           </li>
         </ul>
       </nav>
+
+      <!-- Contacts -->
+
       <ul class="Contact-list list">
         <li>
-          <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li><a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
+
     <!--Main section-->
+
     <main class="page">
       <h1>Portfolio</h1>
+
       <!-- Filter -->
+
       <ul class="list">
         <li class="btn-filter">
           <button class="btn" type="button">Все</button>
@@ -52,78 +71,80 @@
           <button class="btn" type="button">Маркетинг</button>
         </li>
       </ul>
-      <!-- Projects section -->
+
+      <!-- Projects -->
+
       <ul class="list">
         <li class="Project">
           <a class="link" href=""
-            ><img src="./images/Portfolio/img-1.jpg" alt="Ноутбук с карточками" widht="370" />
+            ><img src="./images/portfolio/img-1.jpg" alt="Ноутбук с карточками" width="370" />
             <h2 class="title">Технокряк</h2>
             <p class="parceling">Веб-сайт</p>
           </a>
         </li>
         <li class="Project">
-          <a href="">
-            <img src="./images/Portfolio/img-2.jpg" alt="Баскетболисты" widht="370" />
+          <a class="link" href="">
+            <img src="./images/portfolio/img-2.jpg" alt="Баскетболисты" width="370" />
             <h2 class="title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
             <p class="parceling">Дизайн</p>
           </a>
         </li>
         <li class="Project">
-          <a href="">
-            <img src="./images/Portfolio/img-3.jpg" alt="Рыба" widht="370" />
+          <a class="link" href="">
+            <img src="./images/portfolio/img-3.jpg" alt="Рыба" width="370" />
             <h2 class="title">Ресторан <span lang="en">Seafood</span></h2>
             <p class="parceling">Приложение</p>
           </a>
         </li>
         <li class="Project">
-          <a href="">
-            <img src="./images/Portfolio/img-4.jpg" alt="Наушники" widht="370" />
+          <a class="link" href="">
+            <img src="./images/portfolio/img-4.jpg" alt="Наушники" width="370" />
             <h2 class="title">Проект <span lang="en">Prime</span></h2>
             <p class="parceling">Маркетинг</p>
           </a>
         </li>
         <li class="Project">
-          <a href="">
-            <img src="./images/Portfolio/img-5.jpg" alt="Коробки" widht="370" />
+          <a class="link" href="">
+            <img src="./images/portfolio/img-5.jpg" alt="Коробки" width="370" />
             <h2 class="title">Проект <span lang="en">Boxes</span></h2>
             <p class="parceling">Приложение</p>
           </a>
         </li>
         <li class="Project">
-          <a href="">
-            <img src="./images/Portfolio/img-6.jpg" alt="Компьютер" widht="370" />
+          <a class="link" href="">
+            <img src="./images/portfolio/img-6.jpg" alt="Компьютеры" width="370" />
             <h2 class="title" lang="en">Inspiration has no Borders</h2>
             <p class="parceling">Веб-сайт</p>
           </a>
         </li>
         <li class="Project">
-          <a href="">
-            <img src="./images/Portfolio/img-7.jpg" alt="Журнал" widht="370" />
+          <a class="link" href="">
+            <img src="./images/portfolio/img-7.jpg" alt="Журнал" width="370" />
             <h2 class="title">Издание <span lang="en">Limited Edition</span></h2>
             <p class="parceling">Дизайн</p>
           </a>
         </li>
         <li class="Project">
-          <a href="">
-            <img src="./images/Portfolio/img-8.png" alt="Бэйджик" widht="370" />
+          <a class="link" href="">
+            <img src="./images/portfolio/img-8.png" alt="Бэйджик" width="370" />
             <h2 class="title">Проект <span lang="en">LAB</span></h2>
             <p class="parceling">Маркетинг</p>
           </a>
         </li>
         <li class="Project">
-          <a href="">
-            <img src="./images/Portfolio/img-9.jpg" alt="Печать на ноутбуке" widht="370" />
+          <a class="link" href="">
+            <img src="./images/portfolio/img-9.jpg" alt="Печать на ноутбуке" width="370" />
             <h2 class="title" lang="en">Growing Business</h2>
             <p class="parceling">Приложение</p>
           </a>
         </li>
       </ul>
     </main>
-    <!--Footer section-->
+
     <footer class="footer">
-      <a class="logo" href="./index.html">Web <span class="logo-footer">Studio</span></a>
+      <a class="logo link" href="./index.html">Web <span class="logo-footer">Studio</span></a>
       <address>
-        <ul class="contact-footer-list list">
+        <ul class="contacts list">
           <li class="adress-list">
             <a
               class="adress-link link"
@@ -135,10 +156,10 @@
             >
           </li>
           <li>
-            <a class="contact-footer-link link" href="mailto:info@example.com">info@example.com</a>
+            <a class="contact-link link" href="mailto:info@example.com">info@example.com</a>
           </li>
           <li>
-            <a class="contact-footer-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="contact-link link" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
