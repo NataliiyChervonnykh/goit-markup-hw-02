@@ -2,10 +2,11 @@
   --primery-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --additional-color: #ffffff;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--additional-color);
   color: var(--primery-text-color);
 }
 
@@ -56,12 +57,12 @@ body {
   background-color: #2f303a;
 }
 .main-title {
-  color: #ffffff;
+  color: var(--additional-color);
 }
 
 .hero-btn {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--additional-color);
 }
 
 /* Section */
@@ -72,9 +73,9 @@ body {
 
 /* Features */
 
-.Feature {
-  background-color: #e5e5e5;
-}
+/* .Feature {
+  background-color: #ffffff;
+} */
 
 .feature-list .title {
   color: var(--title-text-color);
@@ -87,7 +88,7 @@ body {
 }
 
 .team .name-item {
-  background-color: #ffffff;
+  background-color: var(--additional-color);
 }
 
 .team .name-list {
@@ -107,7 +108,7 @@ body {
 }
 
 .logo-footer {
-  color: #ffffff;
+  color: var(--additional-color);
 }
 
 .logo-footer:hover {
@@ -120,7 +121,7 @@ body {
 /* contacts footer */
 
 .adress-list .link {
-  color: #ffffff;
+  color: var(--additional-color);
 }
 
 .adress-list .link:hover,
