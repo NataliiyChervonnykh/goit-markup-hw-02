@@ -1,3 +1,188 @@
-body {
-  background-color: tomato;
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
 }
+
+body {
+  background-color: #ffffff;
+  color: var(--primery-text-color);
+}
+
+/* Logo header */
+.logo {
+  color: var(--accent-color);
+}
+
+.logo-header {
+  color: #000000;
+}
+
+.logo-header:hover {
+  color: #2196f3;
+}
+.logo .logo-header:focus {
+  color: var(--accent-color);
+}
+
+/* nav */
+
+.list {
+  list-style: none;
+}
+
+.nav-list .link {
+  color: var(--title-text-color);
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* contact-header */
+
+.Contact-list .link {
+  color: var(--primery-text-color);
+}
+
+.Contact-list .link:hover,
+.Contact-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+.main-title {
+  color: #ffffff;
+}
+
+.hero-btn {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+
+.Feature {
+  background-color: #e5e5e5;
+}
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* team */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team .name-item {
+  background-color: #ffffff;
+}
+
+.team .name-list {
+  color: var(--title-text-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+/* logo footer */
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.logo-footer:hover {
+  color: #2196f3;
+}
+.logo .logo-footer:focus {
+  color: var(--accent-color);
+}
+
+/* contacts footer */
+
+.adress-list .link {
+  color: #ffffff;
+}
+
+.adress-list .link:hover,
+.adress-list .link:focus {
+  color: var(--accent-color);
+}
+
+.contact-footer-list .contact-footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-footer-list .contact-footer-link:hover,
+.contact-footer-list .contact-footer-link:focus {
+  color: var(--accent-color);
+}
+
+/* Цвет лого background:  #000000),
+ #2196F3);
+ */
+
+/* Активнвя ссылка #2196F3 */
+
+/* Цвет Навигации #212121 */
+
+/* Цвет контактов в header #2196F3 aктивная
+#757575 */
+
+/* Главный заголовок #FFFFFF  */
+
+/* Текст кнопки  color: #FFFFFF; */
+
+/*h3 приимущества #212121 */
+
+/* p  #757575 */
+
+/*  Чем мы занимаемся #212121 */
+
+/* Заголовок Наша команда #212121 */
+
+/* Имена #212121 */
+
+/* Должности #757575 */
+
+/* Лого в футере #2196F3, #FFFFFF */
+
+/* Физ. адрес в футере color: #FFFFFF */
+
+/* Цвет почты  и тел. в футере color: rgba(255, 255, 255, 0.6);
+ */
+
+/* Цвет backgraund #2F303A в hero */
+
+/*  #000000    -1 (1)*/
+/*  #2196F3   -2 (4)/
+/*  #212121    -3 (5)/приимущества
+/* #757575      -4 (3)*/
+/* #FFFFFF      -5 (4)*/
+/* rgba(255, 255, 255, 0.6)     -6 (1)*/
+
+/* Основной цвет текста  #212121 */
+/* Вторичный цвет #757575 */
+
+/* Цвет акцента  #2196F3 */
+
+/* белый  #FFFFFF */ ;
