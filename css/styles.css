@@ -130,6 +130,12 @@ body {
   color: var(--additional-color);
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+  color: var(--additional-color);
+}
+
 /* Features */
 
 .feature-list .title {
